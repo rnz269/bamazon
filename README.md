@@ -7,4 +7,4 @@ Node.js & MySQL Amazon-like storefront application
 
 <!-- <img src ="screenshots/shot1"/> -->
 
-![customer view](/screenshots/shot1)
+![customer view](screenshots/shot1.png)
