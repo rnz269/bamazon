@@ -17,7 +17,7 @@ connection.connect(function(err){
 	}
 });
 
-function viewProducts () {
+function viewProducts() {
 var sqlStatement = "SELECT * FROM products";
 	
 connection.query(sqlStatement, function(error, response) {
@@ -30,7 +30,7 @@ connection.query(sqlStatement, function(error, response) {
 })
 };
 
-function takeOrder () {
+function takeOrder() {
 inquirer.prompt([
 {
 	name: "id",
